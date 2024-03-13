@@ -225,7 +225,7 @@ The ``[color]`` and ``[size]`` options allow you to easily change the font size 
 
 The ``[spoiler]`` and ``[center]`` options can be used for text justification and text hiding.
 
-|Option|Color|構文|例|説明|
+|Option|Color|Syntax|Example|Description|
 |---|---|---|---|---|
 |color|HEX|[color val="#HEXCODE"][/color]|[color val="#0969DA"]text[/color]|Change the text color of the enclosed area|
 |size||[size val="NUMBER"][/size]|[size val="50"]text[/size]|Change the size of the text in the enclosed area|
