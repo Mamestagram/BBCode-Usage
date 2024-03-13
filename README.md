@@ -146,7 +146,7 @@ git add
 ``[box]``を使用することで、ボタンをクリックしたときに表示されるドロップダウンリストを作成することができます。
 
 ```
-[box=NAME]text[/box]
+[box name="NAME"]text[/box]
 ```
 
 <details>
