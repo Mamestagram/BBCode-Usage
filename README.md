@@ -6,7 +6,7 @@ BBCodeを使用することで、あなたのプロフィールの見た目を�
 BBCode makes it easy to edit the look and feel of your profile.
 Learn the basic writing style and create your own unique profile page!
 
-#### Click [here]() for an explanation in English.
+#### Click [here](https://github.com/Mamestagram/BBCode-Usage/tree/main?tab=readme-ov-file#english) for an explanation in English.
 
 ## 日本語
 
