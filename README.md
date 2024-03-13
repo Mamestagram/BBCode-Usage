@@ -36,10 +36,10 @@ Learn the basic writing style and create your own unique profile page!
 ``[quote]``を使用してテキストを囲みます
 
 ```
-[quote="title"]text[/quote] 
+[quote name="title"]text[/quote] 
 ```
 
-> **title**
+> **title wrote:**
 > 
 > text
 
@@ -51,6 +51,7 @@ Learn the basic writing style and create your own unique profile page!
 
 ```
 [c]git status[/c]
+
 [code]git add[/code]
 ```
 
@@ -90,7 +91,7 @@ git add
 プロフィールのリンクを設定すると、簡単にプロフィールページへアクセスできるマスクリンクを作成することができます。そのためには``[profile]``を使用する必要があります。
 
 ```
-[profile id="3"]緒山まひろ[/profile] プロフィールのリンク
+[profile]<id>[/profile] プロフィールのリンク
 ```
 
 [緒山まひろ](https://web.mamesosu.net/profile/3/stdrx)
@@ -151,7 +152,7 @@ git add
 <details>
 <summary>NAME</summary>
 <pre>
-&lt;text&gt;
+text
 </pre>
 </details>
 
