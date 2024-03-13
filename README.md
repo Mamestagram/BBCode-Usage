@@ -167,3 +167,159 @@ text
 ![pic](https://img.mamesosu.net/1 "pic")
 
 ## English
+
+### Basic writing and formatting syntax
+
+### Headline
+
+To create a heading, add ``[heading]`` before and after the sentence.
+
+```
+[heading]text[/heading] 
+```
+
+### Text Format
+
+Text can be emphasized by applying the following styles
+
+|Style|Syntax|Example|Output|
+|---|---|---|---
+|Bold|[b] [/b]|[b]text[/b]|**This is bold text**|
+|Italic|[i] [/i]|[i]text[/i]|_This text is italicized_|
+|Underline|[u] [/u]|[u]text[/u]|<ins>This text is underlined</ins>|
+|Strike-through line|[s] [/s]|[s]text[/s]|~~This was mistaken text~~|
+
+### Text Quote
+
+Enclose text using ``[quote]``.
+
+```
+[quote name="title"]text[/quote] 
+```
+
+> **title wrote:**
+> 
+> text
+
+### Code Quote
+
+You can quote codes or commands in a sentence with a single back quote. To format a code or text in a separate block, use ``[code]``.
+
+To format only certain characters, use ``[c]``.
+
+```
+[c]git status[/c]
+
+[code]git add[/code]
+```
+
+``git status``
+
+```
+git add
+```
+
+### Customize Text
+
+The ``[color]`` and ``[size]`` options allow you to easily change the font size and font color. You can assign any value to ``val``. By changing the value of ``val``, you can make more detailed changes.
+
+The ``[spoiler]`` and ``[center]`` options can be used for text justification and text hiding.
+
+|Option|Color|構文|例|説明|
+|---|---|---|---|---|
+|color|HEX|[color val="#HEXCODE"][/color]|[color val="#0969DA"]text[/color]|Change the text color of the enclosed area|
+|size||[size val="NUMBER"][/size]|[size val="50"]text[/size]|Change the size of the text in the enclosed area|
+|spoiler||[spoiler][/spoiler]|[spoiler]text[/spoiler]|Hides the enclosed text|
+|centre||[centre][/centre]|[centre]text[/centre]|Centers the enclosed text|
+
+### Link
+
+#### Masked Link
+
+Mask links can be used to make text a clickable or pressable hyperlink. To do so, you must use ``[url]``.
+
+```
+[url link="URL"]text[/url]
+```
+
+[text](url)
+
+#### Profile Link
+
+Setting up a profile link allows you to create a masked link to easily access your profile page. To do so, you must use ``[profile]``.
+
+```
+[profile]<id>[/profile] プロフィールのリンク
+```
+
+[緒山まひろ](https://web.mamesosu.net/profile/3/stdrx)
+
+### List
+
+You can use ``[list]`` to create an unordered list.
+
+#### Create a basic listing
+
+```
+[list][*]text[/list]
+```
+
+- text
+
+#### Create an applied listing
+
+```
+[list type="TYPE"][*]text[/list] 
+```
+
+##### Available List Formats
+
+```js
+[
+    undefined,
+    "none",
+    "disc",
+    "circle",
+    "square",
+    "dec",
+    "dec-zero",
+    "roman-s",
+    "roman-l",
+    "greek",
+    "cjk",
+    "hebrew",
+    "armenian",
+    "georgian",
+    "hira",
+    "hira-iroha",
+    "kata",
+    "kata-iroha",
+    "alpha-s",
+    "alpha-l"
+]
+```
+
+### Dropdown list
+
+``[box]`` allows you to create a drop-down list that appears when you click a button.
+
+```
+[box name="NAME"]text[/box]
+```
+
+<details>
+<summary>NAME</summary>
+<pre>
+text
+</pre>
+</details>
+
+### Image
+
+You can use ``[img]`` to display an image from a URL.
+
+```
+[img]URL[/img] 
+```
+
+![pic](https://img.mamesosu.net/1 "pic")
