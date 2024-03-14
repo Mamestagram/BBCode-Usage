@@ -91,7 +91,7 @@ git add
 プロフィールのリンクを設定すると、簡単にプロフィールページへアクセスできるマスクリンクを作成することができます。そのためには``[profile]``を使用する必要があります。
 
 ```
-[profile id="USERID"]NAME[/profile] プロフィールのリンク
+[profile id="USERID"]NAME[/profile]
 ```
 
 [緒山まひろ](https://web.mamesosu.net/profile/3/stdrx)
@@ -249,7 +249,7 @@ Mask links can be used to make text a clickable or pressable hyperlink. To do so
 Setting up a profile link allows you to create a masked link to easily access your profile page. To do so, you must use ``[profile]``.
 
 ```
-[profile id="USERID"]NAME[/profile] プロフィールのリンク
+[profile id="USERID"]NAME[/profile]
 ```
 
 [緒山まひろ](https://web.mamesosu.net/profile/3/stdrx)
