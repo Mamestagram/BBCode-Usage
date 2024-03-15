@@ -1,7 +1,7 @@
 # BBCode-Usage
 
 BBCodeを使用することで、あなたのプロフィールの見た目を簡単に編集することができます。
-基本的な書き方を学習し、あなただけのオリジナルをプロフィールページを作ってみましょう！
+基本的な書き方を学習し、あなただけのオリジナルのプロフィールページを作ってみましょう！
 
 BBCode makes it easy to edit the look and feel of your profile.
 Learn the basic writing style and create your own unique profile page!
