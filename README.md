@@ -65,14 +65,14 @@ git add
 
 ``[color]``や``[size]``オプションを使用すると文字の大きさや文字色を簡単に変更することができます。``val``に代入する値は自由に決められます。``val``の値を変更することで、より詳細な変更を行えます。
 
-``[spoiler]``や``[centre]``オプションを使用すると文字揃えや文字を隠すことができます。
+``[spoiler]``や``[center]``オプションを使用すると文字揃えや文字を隠すことができます。
 
 |Option|Color|構文|例|説明|
 |---|---|---|---|---|
 |color|HEX|[color val="#HEXCODE"][/color]|[color val="#0969DA"]text[/color]|囲まれた部分の文字色を変更します|
 |size||[size val="NUMBER"][/size]|[size val="50"]text[/size]|囲まれた部分の文字の大きさを変更します|
 |spoiler||[spoiler][/spoiler]|[spoiler]text[/spoiler]|囲まれた文字を隠します|
-|centre||[centre][/centre]|[centre]text[/centre]|囲まれた文字を中央揃えにします|
+|center||[center][/center]|[center]text[/center]|囲まれた文字を中央揃えにします|
 
 ### リンク
 
@@ -230,7 +230,7 @@ The ``[spoiler]`` and ``[center]`` options can be used for text justification an
 |color|HEX|[color val="#HEXCODE"][/color]|[color val="#0969DA"]text[/color]|Change the text color of the enclosed area|
 |size||[size val="NUMBER"][/size]|[size val="50"]text[/size]|Change the size of the text in the enclosed area|
 |spoiler||[spoiler][/spoiler]|[spoiler]text[/spoiler]|Hides the enclosed text|
-|centre||[centre][/centre]|[centre]text[/centre]|Centers the enclosed text|
+|center||[center][/center]|[center]text[/center]|Centers the enclosed text|
 
 ### Link
 
